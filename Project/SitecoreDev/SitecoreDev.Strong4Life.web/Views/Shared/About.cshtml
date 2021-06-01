@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Glass.Mapper.Sc.Mvc
+@using System.Web.Webpages
+
+@model RenderingModel
+@{
+
+}
+<div>
+    <h1>@Html.Sitecore().Field("Title")</h1>
+    <br />
+    @Html.Sitecore().Field("Body")
+    <br />
+
+
+    @{
+        Sitecore.Data.Items.Item item = Sitecore.Context.Item;
+        Sitecore.Data.Fields.ReferenceField field = item.Fields["Author"];
+        if (field != null && field.TargetItem != null)
+        {
+            Sitecore.Data.Items.Item target = field.TargetItem;
+            <p>Author: @target.Name; </p>
+        }
+    }
+    <br />
+   Date: @Html.Sitecore().Field("Date")
+
+</div>

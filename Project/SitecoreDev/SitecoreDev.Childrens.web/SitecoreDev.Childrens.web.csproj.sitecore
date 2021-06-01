@@ -1,0 +1,12 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="https://sc10sxasc.dev.local" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="Areas\Childrens\Views\ArticleDetail\artDetails.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6E0C81FA-9689-4883-8205-F2A3151B1A75}</Item>
+  </File>
+  <File Include="Areas\Childrens\Views\Shared\choaMaster.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Areas/Childrens/Views/Shared/choaMaster.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{4C07EE1F-8569-42BD-B142-11A266981A2B}</Item>
+  </File>
+</Project>

@@ -1,0 +1,9 @@
+﻿@using Sitecore.Mvc
+@Model DateTime
+
+<p>Today Date is: @Model.ToLongDateString()</p>
+
+<div>
+    <h1>@Html.Sitecore().Field("Title")</h1>
+    <ul>@Html.Sitecore().Field("Body")</ul>
+</div>

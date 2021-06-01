@@ -1,0 +1,11 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="https://sc10sxasc.dev.local" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="CMS\RuleEngine\Conditions\SCCustomRule.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A535BB1D-F422-4D5C-AD8E-AD36C4EB61CF}</Item>
+  </File>
+  <File Include="CMS\RuleEngine\Conditions\HttpRequestParameterValueCheck.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{96970E96-19E1-46B7-9208-FBF1A0B34FD9}</Item>
+  </File>
+</Project>

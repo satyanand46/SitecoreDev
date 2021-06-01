@@ -1,0 +1,53 @@
+﻿@using Newtonsoft.Json
+@using System.Web
+@model SitecoreDev.Strong4Life.web.Models.SearchModel
+@{
+    ViewBag.Title = "Search Item";
+}
+
+<h2>Search Item</h2>
+
+<div class="form-example">
+    <label for="name">Search Item </label>
+    <input type="text" name="name" id="searchText" required>
+</div>
+<br />
+<br />
+<div class="form-example">
+    <button class="favorite styled" type="button" id="searchButton">
+        Search
+    </button>
+</div>
+
+    <!--old code-->
+<br />
+<h2>Search Results</h2>
+<div id="resultsItem1"></div>
+    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    <script>
+    $(document).ready(function () {
+
+        $("#searchButton").click(function (e) {
+
+            e.preventDefault();
+            $.ajax({
+                type: "GET",
+                datatype: "JSON",
+                url: "@Url.Action("DoSearch", "Index")",
+                contentType: "application/json",
+                data: {
+                    searchItem: $("#searchText").val()
+                },
+                success: function (result) {
+                   alert('ok');
+                    
+                   
+                    document.getElementById("resultsItem1").innerHTML = "<ul><li>" + result.Results[0].Title + "</li><li>" + result.Results[1].Title + "</li></ul>";
+                },
+                error: function (result) {
+                    alert('error');
+                }
+            });
+        });
+    });
+    </script>
