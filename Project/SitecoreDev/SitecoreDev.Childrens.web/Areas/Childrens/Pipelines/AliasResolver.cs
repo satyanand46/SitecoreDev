@@ -24,6 +24,8 @@ namespace SitecoreDev.Childrens.web.Areas.Childrens.Pipelines
                             Sitecore.Context.Database.GetItem(string.Format("{0}{1}", SiteUtils.GetSiteAliasesPath(),
                                 args.LocalPath.ToLower()));
 
+                        //var aliasItem= getAliasItem(args);
+                        Tracer.Warning((object)"There is no context database.");
                         if (null != aliasItem)
                         {
                             LinkField linkField = aliasItem.Fields[FieldUtils.Alias.Link];
@@ -69,6 +71,29 @@ namespace SitecoreDev.Childrens.web.Areas.Childrens.Pipelines
                     }
                 }
             }
+        }
+
+        /// 
+
+        /// Gets the alias item.
+        /// 
+
+        /// The args.
+        /// 
+        private Item getAliasItem(HttpRequestArgs args)
+        {
+            string siteName = Sitecore.Context.Site.RootPath.ToLower();
+
+            if (args.LocalPath.Length > 1)
+            {
+                Item aliasItem = Sitecore.Context.Database.GetItem("/sitecore/content/Childrens/Components/Aliases/" + args.LocalPath);
+                if (aliasItem != null)
+                {
+                    return aliasItem;
+                }
+            }
+
+            return null;
         }
     }
 }

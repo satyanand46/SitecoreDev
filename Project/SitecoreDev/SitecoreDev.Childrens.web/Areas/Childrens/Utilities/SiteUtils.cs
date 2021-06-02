@@ -12,7 +12,7 @@ namespace SitecoreDev.Childrens.web.Areas.Childrens.Utilities
         /// <summary>
         /// The site name
         /// </summary>
-        public const string SiteName = "childrens";
+        public const string SiteName = "Childrens";
 
         
 

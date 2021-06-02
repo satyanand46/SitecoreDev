@@ -59,6 +59,9 @@
       <HintPath>C:\inetpub\wwwroot\sc10sxasc.dev.local\bin\Glass.Mapper.Sc.WebForms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PipelineDebug, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\pipeline.debug.1.0.4\lib\PipelineDebug.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Content.Services">
       <HintPath>C:\inetpub\wwwroot\sc10sxasc.dev.local\bin\Sitecore.Content.Services.dll</HintPath>
     </Reference>
@@ -154,6 +157,10 @@
     <Content Include="Areas\Childrens\Views\ArticleDetail\artDetails.cshtml" />
     <Content Include="Areas\Childrens\Views\Shared\choaMaster.cshtml" />
     <Content Include="Areas\Childrens\Views\Circuit\Featured.cshtml" />
+    <Content Include="sitecore\admin\PipelineDebug.css" />
+    <Content Include="sitecore\admin\PipelineDebug.html" />
+    <Content Include="sitecore\admin\PipelineDebug.js" />
+    <Content Include="App_Config\include\PipelineDebug\PipelineDebug.config" />
     <None Include="Properties\PublishProfiles\ChoaPublish.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
