@@ -61,7 +61,7 @@ namespace SitecoreDev.Childrens.web.Areas.Childrens.Extensions
 
         public static bool IsUtilityLinkItemEnhancement(this Item item)
         {
-            return item.Template.FullName.Contains("User Defined/Childrens/Global/Component Templates/Utility Link");
+            return item.Template.FullName.Contains("User Defined/Childrens1/Global/Component Templates/Utility Link");
         }
     }
 }

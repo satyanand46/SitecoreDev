@@ -46,7 +46,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialComponents", "Feature
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDev.Childrens.web", "Project\SitecoreDev\SitecoreDev.Childrens.web\SitecoreDev.Childrens.web.csproj", "{960A969A-7892-4E88-A638-09BE312410B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choa.Strong4Life.DataContracts", "Foundation\SItecoreExtension\Choa.Strong4Life.DataContracts\Choa.Strong4Life.DataContracts.csproj", "{A8D44E79-E150-47EB-B6F3-406A6D603831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Choa.Strong4Life.DataContracts", "Foundation\SItecoreExtension\Choa.Strong4Life.DataContracts\Choa.Strong4Life.DataContracts.csproj", "{A8D44E79-E150-47EB-B6F3-406A6D603831}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreDev.CHOA.TDS.Master", "Project\SitecoreDev\SitecoreDev.CHOA.TDS.Master\SitecoreDev.CHOA.TDS.Master.scproj", "{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{BD0BCCF3-FA30-46B7-BAB1-E9D64B99218E}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreDev.TDS.Core", "SitecoreDev.TDS.Core\SitecoreDev.TDS.Core.scproj", "{97E9A7EF-FA4E-4034-8D08-62350E208F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +103,18 @@ Global
 		{A8D44E79-E150-47EB-B6F3-406A6D603831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8D44E79-E150-47EB-B6F3-406A6D603831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8D44E79-E150-47EB-B6F3-406A6D603831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +136,8 @@ Global
 		{44956F5F-CA10-469E-9838-D2A7C7BA5ED0} = {EC474F2F-52A7-4C88-860C-6DA69B94ABBD}
 		{960A969A-7892-4E88-A638-09BE312410B8} = {88FE5C3F-236A-44EC-BEAC-76D279C52204}
 		{A8D44E79-E150-47EB-B6F3-406A6D603831} = {FD78BAB9-5D27-4F00-ADAE-51C9EE18DC12}
+		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494} = {88FE5C3F-236A-44EC-BEAC-76D279C52204}
+		{97E9A7EF-FA4E-4034-8D08-62350E208F76} = {88FE5C3F-236A-44EC-BEAC-76D279C52204}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD5F3CC4-0A76-4845-B1ED-657D8519E92C}
