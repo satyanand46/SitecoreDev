@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {7166DD4C-B4BC-4237-94F8-0D7547E046EF}
+database: master
+path: /sitecore/content/Childrens/Home/Articles/WBNews
+parent: {4E96901B-D9A1-4AA9-9F9C-849A796E31CC}
+name: WBNews
+master: {00000000-0000-0000-0000-000000000000}
+template: {DAFA519F-4C59-45D1-8BF7-B10F10CDE798}
+templatekey: Articles
+
+----version----
+language: en
+version: 1
+revision: 297d7a1e-4126-46b0-9332-78b055d34995
+
+----field----
+field: {821CEF7F-E9B6-427F-8CE5-E2497B06B1DC}
+name: Heading
+key: heading
+content-length: 11
+
+WBNews Head
+----field----
+field: {337A9870-68A2-4E76-8AAC-63EE22E3BDC4}
+name: Body
+key: body
+content-length: 11
+
+WBNews Body
+----field----
+field: {A99982C9-908C-4BD6-910C-B1F570B38D50}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F8027656-91BA-4BE8-A8E4-521633DA3559}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210521T065019Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+297d7a1e-4126-46b0-9332-78b055d34995
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210521T065111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

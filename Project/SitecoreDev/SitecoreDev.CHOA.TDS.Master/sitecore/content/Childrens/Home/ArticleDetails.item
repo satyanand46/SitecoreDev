@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {E258715D-40B0-4253-9541-9A86DA7FF95D}
+database: master
+path: /sitecore/content/Childrens/Home/ArticleDetails
+parent: {28B3DE12-4550-47E2-83A5-725C55332682}
+name: ArticleDetails
+master: {00000000-0000-0000-0000-000000000000}
+template: {7F7907CC-367B-4B44-A012-A94C273EFD90}
+templatekey: ArtDetails
+
+----version----
+language: en
+version: 1
+revision: 83c4a1fe-09d0-48bd-80a4-d187779b97b7
+
+----field----
+field: {2D252144-4013-406B-9A3C-F95426CD8B50}
+name: Title
+key: title
+content-length: 5
+
+title
+----field----
+field: {74EEE129-21E8-4E42-8906-84EDB389D4B1}
+name: Description
+key: description
+content-length: 33
+
+dfdsf fkdsjfkjds fdksfj dskjf dsf
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 264
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4C07EE1F-8569-42BD-B142-11A266981A2B}"><r ds="" id="{6E0C81FA-9689-4883-8205-F2A3151B1A75}" par="" ph="main" uid="{F78AE4DF-D88B-4F3F-A13B-8D2627490BB1}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210523T125626Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+83c4a1fe-09d0-48bd-80a4-d187779b97b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210523T131457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

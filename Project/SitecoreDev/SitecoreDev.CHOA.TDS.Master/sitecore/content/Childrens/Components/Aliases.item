@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C1E82DA1-D439-4382-81E3-099AE9B437DA}
+database: master
+path: /sitecore/content/Childrens/Components/Aliases
+parent: {397EE3A8-15D1-4717-B2DA-2BAAF8715267}
+name: Aliases
+master: {00000000-0000-0000-0000-000000000000}
+template: {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
+templatekey: Node
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{BBB1B331-822B-4207-BA0E-96D50DD9E3FA}
+----version----
+language: en
+version: 1
+revision: ed59a462-521e-460c-af3f-95a459de7a0b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210523T091834Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ed59a462-521e-460c-af3f-95a459de7a0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210523T092052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

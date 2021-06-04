@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {6EF65A3F-08E4-426E-9E07-D123166FFF1A}
+database: master
+path: /sitecore/content/Childrens/Home/Oulten Park
+parent: {28B3DE12-4550-47E2-83A5-725C55332682}
+name: Oulten Park
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A8A1CEA-017E-47CD-B064-5079ECDD751D}
+templatekey: CircuitFeature
+
+----version----
+language: en
+version: 1
+revision: 94b66694-6ade-45a1-b620-cb8770a9760c
+
+----field----
+field: {038CA842-A098-4D93-A207-8ED1325F7ADA}
+name: Name
+key: name
+content-length: 11
+
+Oulton Park
+----field----
+field: {C03934E7-705A-4975-BA4C-5390DE93F354}
+name: Text
+key: text
+content-length: 5450
+
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">The track is characterised by rapidly changing gradients, blind crests and several tight corners. The full circuit is 2.8&nbsp;mi (4.5&nbsp;km). The highest part of the course is Hill Top. Paddock facilities are reasonable in size with large areas of hard-standing and some power points.</p>
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">The race track can be adapted for shorter courses. The "Foster's" Circuit, which is 1.66 miles (2.7&nbsp;km), comprises half of the "Cascades" corner followed by the&nbsp;<a href="https://en.wikipedia.org/wiki/Steve_Hislop" title="Steve Hislop" style="color: #0645ad; background: none;">"Hislop's"</a>&nbsp;chicane, it then heads onto Knickerbrook and up the 13% gradient of Clay Hill to work its way round to the start/finish straight. The&nbsp;<a href="https://en.wikipedia.org/wiki/British_Touring_Car_Championship" title="British Touring Car Championship" style="color: #0645ad; background: none;">British Touring Car Championships</a>&nbsp;uses all of the Cascades Corner and Lakeside but then forks off into a hairpin before Island Bend. This hairpin cuts out all of the Island section of the circuit and takes the cars straight back over Hill Top.</p>
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">Beginning in 2007, all the circuit's marshalling stations were redesigned with protective cages. This was to prevent incidents similar to those seen in the 2006 season when cars had collided with marshalling posts. A cage-protected marshals station was also built at the bottom of the back straight near the chicane preceding Knickerbrook.</p>
+<h3 style="color: #000000; background-color: #ffffff; margin: 0.3em 0px 0px; padding-top: 0.5em; padding-bottom: 0px;"><span class="mw-headline" id="Knickerbrook_corner">Knickerbrook corne</span></h3>
+<div class="thumb tright" style="color: #202122; background-color: #ffffff; width: auto; margin: 0.5em 0px 1.3em 1.4em;">
+<div class="thumbinner" style="background-color: #f8f9fa; width: 222px; padding: 3px; border: 1px solid #c8ccd1; text-align: center;">
+<div class="thumbcaption" style="padding: 3px; border: 0px; text-align: left;">
+<div class="magnify" style="margin-right: 0px; margin-left: 3px;"><a href="https://en.wikipedia.org/wiki/File:Jake_Rosenzweig_Oulton_Park_(Knickerbrook).JPG" class="internal" title="Enlarge" style="color: #0645ad; background: linear-gradient(transparent, transparent), url('/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e'); height: 11px; width: 15px;"></a></div>
+&nbsp;</div>
+</div>
+</div>
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">The corner is named after an event that occurred when the British demolition expert and raconteur,&nbsp;<a href="https://en.wikipedia.org/wiki/Blaster_Bates" title="Blaster Bates" style="color: #0645ad; background: none;">Blaster Bates</a>, was removing tree stumps with dynamite close to the corner with a colleague. After the first detonation, a courting couple were seen to run off at speed and in some disarray from a nearby a bush or bank. On the closer investigation, the pair discovered some ladies underwear in the brook and this resulted in the naming of the corner.<sup id="cite_ref-1" class="reference"><a href="https://en.wikipedia.org/wiki/Oulton_Park#cite_note-1" style="color: #0645ad; background: none;">[1]</a></sup></p>
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">Despite its colourful name, it was a notorious corner on circuit because of accidents and racing drivers fatalities. The death of&nbsp;<a href="https://en.wikipedia.org/wiki/Paul_Warwick_(racing_driver)" title="Paul Warwick (racing driver)" style="color: #0645ad; background: none;">Paul Warwick</a>&nbsp;in 1991 led to a&nbsp;<a href="https://en.wikipedia.org/wiki/Chicane" title="Chicane" style="color: #0645ad; background: none;">chicane</a>&nbsp;being added at the entry to the corner. Prior to Warwick's death, the bend had a reputation as a "racers' corner" because it demanded a driver's full commitment and total courage. Originally it was a fifth gear,&nbsp;<a href="https://en.wikipedia.org/wiki/Off-camber_corner" class="mw-redirect" title="Off-camber corner" style="color: #0645ad; background: none;">off camber</a>&nbsp;right-hand bend at the end of a downhill straight called Hilltop. Deep kerbing on the inside of the corner combined with an off camber could easily affect a&nbsp;<a href="https://en.wikipedia.org/wiki/Automobile_handling" title="Automobile handling" style="color: #0645ad; background: none;">cars' handling</a>&nbsp;causing it to veer to the outside of the circuit. As an&nbsp;<a href="https://en.wikipedia.org/wiki/Armco_barrier" class="mw-redirect" title="Armco barrier" style="color: #0645ad; background: none;">Armco barrier</a>&nbsp;on the outside of the corner eventually intersected with the grass verge, there was a significant lack of&nbsp;<a href="https://en.wikipedia.org/wiki/Run-off_area" title="Run-off area" style="color: #0645ad; background: none;">run off area</a>&nbsp;for drivers forced wide on the bend.</p>
+<p style="color: #202122; background-color: #ffffff; margin: 0.5em 0px;">Since 1991, a right-left chicane (named Hislop's) was installed about 135&nbsp;m (443&nbsp;ft) before Knickerbrook to reduce the speed of cars coming down Hilltop.</p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 251
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4C07EE1F-8569-42BD-B142-11A266981A2B}"><r id="{2AE38D93-E9E3-4FB3-B1A3-FABA4A718F1D}" ph="main" uid="{70456607-BD85-41D4-929A-AAD443AFD11D}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210524T131751Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+94b66694-6ade-45a1-b620-cb8770a9760c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210524T132003Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
