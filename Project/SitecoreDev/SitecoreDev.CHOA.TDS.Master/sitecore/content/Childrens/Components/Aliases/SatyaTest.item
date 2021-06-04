@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {BCC53285-F4C7-4F87-9629-14CA4D4ECB6C}
+database: master
+path: /sitecore/content/Childrens/Components/Aliases/SatyaTest
+parent: {C1E82DA1-D439-4382-81E3-099AE9B437DA}
+name: SatyaTest
+master: {00000000-0000-0000-0000-000000000000}
+template: {BBB1B331-822B-4207-BA0E-96D50DD9E3FA}
+templatekey: Alias
+
+----version----
+language: en
+version: 1
+revision: fc5ac8b5-2953-4844-82f1-fc885f685ea6
+
+----field----
+field: {D01F685E-BFE4-4298-B4E4-85C61FDF0083}
+name: Link
+key: link
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E258715D-40B0-4253-9541-9A86DA7FF95D}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210604T090748Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc5ac8b5-2953-4844-82f1-fc885f685ea6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210604T090905Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
