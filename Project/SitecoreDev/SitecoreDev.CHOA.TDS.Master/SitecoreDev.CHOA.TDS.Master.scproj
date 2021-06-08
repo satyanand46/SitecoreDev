@@ -4,12 +4,13 @@
     <EnableContainerDeployment>False</EnableContainerDeployment>
     <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
     <PackageName>SitecoreDev.CHOA.TDS.Master</PackageName>
-    <PackageAuthor />
-    <PackagePublisher />
-    <PackageVersion />
+    <PackageAuthor>TDS.Master</PackageAuthor>
+    <PackagePublisher>TDS.Master</PackagePublisher>
+    <PackageVersion>TDS.Master</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath />
-    <GeneratePackage>False</GeneratePackage>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
@@ -22,6 +23,31 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>SitecoreDev.CHOA.TDS.Master</PackageName>
+    <PackageAuthor>TDS.Master</PackageAuthor>
+    <PackagePublisher>TDS.Master</PackagePublisher>
+    <PackageVersion>TDS.Master</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath>Library</SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <BuildWebDeploy>True</BuildWebDeploy>
+    <WebDeployPackageCodeAndItemOptions>CodeOnly</WebDeployPackageCodeAndItemOptions>
+    <WebDeployPackageName>choaUpdate</WebDeployPackageName>
+    <WebDeployAppendDateAndTimeToPackageName>True</WebDeployAppendDateAndTimeToPackageName>
+    <ContinueOnItemDeployError>False</ContinueOnItemDeployError>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Include</AssemblyStatus>
+    <SourceWebVirtualPath>/SitecoreDev.Childrens.web.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{960a969a-7892-4e88-a638-09be312410b8}|Project\SitecoreDev\SitecoreDev.Childrens.web\SitecoreDev.Childrens.web.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\SitecoreDev.Childrens.web</SourceWebPhysicalPath>
+    <EnableCodeGeneration>False</EnableCodeGeneration>
+    <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
+    <CodeGenTargetProject>SitecoreDev.Childrens.web</CodeGenTargetProject>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
@@ -30,12 +56,6 @@
     <AssemblyAttributes Include="AssemblyVersion">
       <Value>$(AssemblyVersion)</Value>
     </AssemblyAttributes>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SitecoreDev.Childrens.web\SitecoreDev.Childrens.web.csproj">
-      <Project>{960a969a-7892-4e88-a638-09be312410b8}</Project>
-      <Name>SitecoreDev.Childrens.web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' " />
   <ItemGroup>
@@ -103,6 +123,17 @@
     <SitecoreItem Include="sitecore\templates\User Defined\Childrens\Page Template\Home Page\content\Title.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\Childrens\Site Templates.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\User Defined\Childrens\Site Templates\Site Template.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SitecoreDev.Childrens.web\SitecoreDev.Childrens.web.csproj">
+      <Project>{960a969a-7892-4e88-a638-09be312410b8}</Project>
+      <Name>SitecoreDev.Childrens.web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PostDeployAction Include="HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor.BuiltIn.PublishDeployedItems, HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor">
+      <Order>0</Order>
+    </PostDeployAction>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

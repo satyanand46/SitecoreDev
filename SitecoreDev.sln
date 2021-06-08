@@ -57,6 +57,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{BD0BCCF3-F
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreDev.TDS.Core", "SitecoreDev.TDS.Core\SitecoreDev.TDS.Core.scproj", "{97E9A7EF-FA4E-4034-8D08-62350E208F76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{8847EAEF-8C68-44B3-B58E-FC8F42DFA726}"
+	ProjectSection(SolutionItems) = preProject
+		Library\Sitecore.Kernel.dll = Library\Sitecore.Kernel.dll
+		Library\Sitecore.Logging.dll = Library\Sitecore.Logging.dll
+		Library\Sitecore.Update.dll = Library\Sitecore.Update.dll
+		Library\Sitecore.Zip.dll = Library\Sitecore.Zip.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
