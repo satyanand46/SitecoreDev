@@ -34,10 +34,13 @@
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
     <BuildWebDeploy>True</BuildWebDeploy>
-    <WebDeployPackageCodeAndItemOptions>CodeOnly</WebDeployPackageCodeAndItemOptions>
+    <WebDeployPackageCodeAndItemOptions>CodeAndItems</WebDeployPackageCodeAndItemOptions>
     <WebDeployPackageName>choaUpdate</WebDeployPackageName>
     <WebDeployAppendDateAndTimeToPackageName>True</WebDeployAppendDateAndTimeToPackageName>
     <ContinueOnItemDeployError>False</ContinueOnItemDeployError>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SitecoreDev.CHOA.TDS.Master_Release.xml</ValidationSettingsFilePath>
+    <OutputPath>.\bin\Release\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SitecoreDatabase>master</SitecoreDatabase>
@@ -71,6 +74,7 @@
     <SitecoreItem Include="sitecore\content\Childrens\Components\Aliases\park.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Childrens\Components\Aliases\SatyaTest.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Childrens\Home.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Childrens\Home\Article2.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Childrens\Home\ArticleDetails.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Childrens\Home\Articles.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Childrens\Home\Articles\MPNews.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
@@ -132,6 +136,7 @@
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
     <PostDeployAction Include="HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor.BuiltIn.PublishDeployedItems, HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor">
+      <Parameter>Internet</Parameter>
       <Order>0</Order>
     </PostDeployAction>
   </ItemGroup>
