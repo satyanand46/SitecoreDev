@@ -12,13 +12,13 @@ namespace SitecoreDev.Strong4Life.web.Controllers
 {
     public class IndexController : Controller
     {
-        public ActionResult DoSearch(string searchItem)
+        public ActionResult DoSearch()
         {
             var myResults = new SearchResults
             {
                 Results = new List<SearchResult>()
             };
-
+            string searchItem = Request.QueryString["searchItem"] ?? string.Empty;
             var searchIndex = ContentSearchManager.GetIndex("sitecore_s4l_index"); // Get the search index
             var searchPredicate = GetSearchPredicate(searchItem); // Build the search predicate
 
@@ -29,17 +29,20 @@ namespace SitecoreDev.Strong4Life.web.Controllers
                 // This will get all of the results, which is not recommended
                 var fullResults = searchResults.GetResults();
 
-                foreach (var hit in fullResults.Hits)
+                foreach (var hit in fullResults)
                 {
                     myResults.Results.Add(new SearchResult
                     {
                         Description = hit.Document.Description,
                         Title = hit.Document.ItemName,
                         Heading = hit.Document.Heading,
-                        SubHeading = hit.Document.SubHeading
+                        SubHeading = hit.Document.SubHeading,
+                        abtName= hit.Document.abtName,
+                         abtbody = hit.Document.abtbody
                     });
                 }
-                return ResultJson(myResults);
+                //return ResultJson(myResults);
+                return View(myResults);
             }
         }
 
@@ -56,6 +59,8 @@ namespace SitecoreDev.Strong4Life.web.Controllers
             predicate = predicate.Or(x => x.SubHeading.Contains(searchTerm));
             predicate = predicate.Or(x => x.Description.Contains(searchTerm));
             predicate = predicate.Or(x => x.Title.Contains(searchTerm));
+            predicate = predicate.Or(x => x.abtName.Contains(searchTerm));
+            predicate = predicate.Or(x => x.abtbody.Contains(searchTerm));
 
             return predicate;
         }

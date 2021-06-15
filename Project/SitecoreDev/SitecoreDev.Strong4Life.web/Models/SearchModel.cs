@@ -19,6 +19,10 @@ namespace SitecoreDev.Strong4Life.web.Models
         public virtual string Description {get; set;}
             [IndexField("name_t")]
             public virtual string Title { get; set; }
+        [IndexField("title_t")]
+        public virtual string abtName { get; set; }
+        [IndexField("body_t")]
+        public virtual string abtbody { get; set; }
     }
 
 
@@ -28,6 +32,8 @@ namespace SitecoreDev.Strong4Life.web.Models
         public string Heading { get; set; }
         public string SubHeading { get; set; }
         public string Description { get; set; }
+        public string abtName { get; set; }
+        public string abtbody { get; set; }
     }
 
     /// <summary>
