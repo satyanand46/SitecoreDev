@@ -161,14 +161,17 @@
     <Content Include="sitecore\admin\PipelineDebug.html" />
     <Content Include="sitecore\admin\PipelineDebug.js" />
     <Content Include="App_Config\include\PipelineDebug\PipelineDebug.config" />
+    <Content Include="Areas\Childrens\Views\Search\Index.cshtml" />
     <None Include="Properties\PublishProfiles\ChoaPublish.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Areas\Childrens\Controllers\CircuitController.cs" />
+    <Compile Include="Areas\Childrens\Controllers\SearchController.cs" />
     <Compile Include="Areas\Childrens\Extensions\ItemExtensions.cs" />
     <Compile Include="Areas\Childrens\Modules\ArtModel.cs" />
     <Compile Include="Areas\Childrens\Modules\Circuit.cs" />
+    <Compile Include="Areas\Childrens\Modules\SearchModel.cs" />
     <Compile Include="Areas\Childrens\Pipelines\AliasResolver.cs" />
     <Compile Include="Areas\Childrens\Utilities\FieldUtils.cs" />
     <Compile Include="Areas\Childrens\Utilities\LinkUtils.cs" />
