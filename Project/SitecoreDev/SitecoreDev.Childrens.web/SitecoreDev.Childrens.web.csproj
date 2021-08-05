@@ -206,12 +206,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\SItecoreExtension\Choa.Strong4Life.DataContracts\Choa.Strong4Life.DataContracts.csproj">
-      <Project>{a8d44e79-e150-47eb-b6f3-406a6d603831}</Project>
-      <Name>Choa.Strong4Life.DataContracts</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
