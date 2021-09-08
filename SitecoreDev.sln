@@ -65,6 +65,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{8847
 		Library\Sitecore.Zip.dll = Library\Sitecore.Zip.dll
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SXA.Foundation.Variants", "SXA.Foundation.Variants\SXA.Foundation.Variants.csproj", "{50A71C66-42BA-48CD-8349-6B2D5400E5CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97E9A7EF-FA4E-4034-8D08-62350E208F76}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{50A71C66-42BA-48CD-8349-6B2D5400E5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A71C66-42BA-48CD-8349-6B2D5400E5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A71C66-42BA-48CD-8349-6B2D5400E5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A71C66-42BA-48CD-8349-6B2D5400E5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{A8D44E79-E150-47EB-B6F3-406A6D603831} = {FD78BAB9-5D27-4F00-ADAE-51C9EE18DC12}
 		{F4DCDDBB-8F9E-4B70-AE9E-96BA181EA494} = {88FE5C3F-236A-44EC-BEAC-76D279C52204}
 		{97E9A7EF-FA4E-4034-8D08-62350E208F76} = {88FE5C3F-236A-44EC-BEAC-76D279C52204}
+		{50A71C66-42BA-48CD-8349-6B2D5400E5CF} = {FD78BAB9-5D27-4F00-ADAE-51C9EE18DC12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD5F3CC4-0A76-4845-B1ED-657D8519E92C}

@@ -19,7 +19,7 @@ namespace SitecoreDev.Strong4Life.web.Controllers
                 Results = new List<SearchResult>()
             };
             string searchItem = Request.QueryString["searchItem"] ?? string.Empty;
-            var searchIndex = ContentSearchManager.GetIndex("sitecore_s4l_index"); // Get the search index
+            var searchIndex = ContentSearchManager.GetIndex("sc10sxa_s4l_index"); // Get the search index
             var searchPredicate = GetSearchPredicate(searchItem); // Build the search predicate
 
             using (var searchContext = searchIndex.CreateSearchContext()) // Get a context of the search index

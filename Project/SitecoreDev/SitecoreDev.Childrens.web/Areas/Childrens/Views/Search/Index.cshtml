@@ -6,6 +6,28 @@
 }
 
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script>
+    var currentindex = 0
+    var items = Model.Results
+    function LoadMore(item) {
+        alert(item.length)
+        var maxleangth = 2
+        for (var i = 0; i < maxleangth; i++) {
+            $("#content").append("<div> test content " + i +"</div>")
+            $("#content").append("<div>" + items[i + currentindex] + "</div>")
+           
+            }
+        }
+        if (currentindex >= items.length - 2) {
+            $("#lmbutton").hide()
+            return;
+        }
+        currentindex += maxleangth
+    }
+</script>
 <h2>Search Item</h2>
 
 <div class="form-example">
@@ -24,6 +46,9 @@
 <!--old code-->
 <br />
 <h2>Search Results</h2>
+<h1>Load More button tutorial</h1>
+<div id="content"></div>
+<button id="lmbutton" onclick="LoadMore(@Model.Results)">Load More</button>
 
 <div class="search-results-container">
     @if ((Model == null) || (Model.Results == null))
@@ -36,14 +61,14 @@
     {
         foreach (var item in Model.Results)
         {
-<div class="search-results-item">
-    <div class="search-item-breadcrumb">@item.Title</div> 
-    <div class="search-item-body">@item.Description</div>
-    @*<a class="search-item-title" href="@item.SubHeading">@item.SubHeading</a>*@
-    <div class="search-item-body">@item.fName</div>
-    <div class="search-item-body">@item.fbody</div>
+            <div class="search-results-item">
+                <div class="search-item-breadcrumb">@item.Title</div>
+                <div class="search-item-body">@item.Description</div>
+                @*<a class="search-item-title" href="@item.SubHeading">@item.SubHeading</a>*@
+                <div class="search-item-body">@item.fName</div>
+                <div class="search-item-body">@item.fbody</div>
 
-</div>
+            </div>
         }
     }
     </ div >
